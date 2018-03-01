@@ -78,7 +78,7 @@ var chess=document.getElementById('chess');
 var context=chess.getContext('2d');
 context.strokeStyle="BFBFBF";
 var icon=new Image();
-icon.src="css/images/icon.png";
+icon.src="icon.png";
 icon.onload=function(){
 	 //绘制北背景图
 context.drawImage(icon,0,0,450,450);
